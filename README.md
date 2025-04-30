@@ -4,6 +4,7 @@
 Ferramentas
 - Kali Linux
 - setoolkit
+- PyPhiser
 
 # Configurando o Phishing no Kali Linux
 - Acesso root: sudo su
@@ -15,7 +16,29 @@ Ferramentas
 - Obtendo o endereço da máquina: $ ip -br a
 - URL para clone: http://www.facebook.com
 
+# Configurando o PyPhiser no Kali Linux
+- Pesquisando outra ferramenta: https://gitlab.com/KasRoudra/PyPhisher
+- Baixando o repositório: $ git clone https://gitlab.com/KasRoudra/PyPhisher.git
+- Acessando o diretório e listando o conteúdo:
+- Rodando o PyPhisher: $ python pyphisher.py
+- Do you have loclx authtoken? : n
+- Acessando a interface do PyPhiser:
+- Facebook Traditional: 1
+- Do you want OTP Page? [y/n]: n
+- Enter shadow url (for social media preview)[press enter to skip] : Enter
+- Enter redirection url[press enter to skip] : Enter
+- Are you sure you want to continue connecting (yes/no/[fingerprint])? : Esc
+- Acessando o link gerado: [https://sealed-badly-extract-nitrogen.trycloudflare.com]
+- Inserindo as credenciais na página clonada: usuario@face.com / senhasecreta123
+- Redirecionamento para a página real do facebook:
+- Coletando dados da vítima:
+- Coletando informações de login da vítima:
+- Informações registradas: creds.txt
+
 # Resutados:
+
+# SET no Kali Linux
+
 - Acesso root: sudo su
 ![RCE](./img/01.png)
 
@@ -46,12 +69,65 @@ Ferramentas
 ![RCE](./img/13.png)
 ![RCE](./img/14.png)
 
--Acessando a página clonada: http://192.168.2.127/
+- Acessando a página clonada: http://192.168.2.127/
 ![RCE](./img/15.png)
 
--Inserindo credenciais: usuario@face.com / senhasecreta123
+- Inserindo credenciais: usuario@face.com / senhasecreta123
 ![RCE](./img/15.png)
+![RCE](./img/16.png)
 
-- Senhas Capturadas: http://www.facebook.com
-![RCE](./img/14.png)
+- Senhas Capturadas: http://www.facebook.com | fail
+![RCE](./img/17.png)
 
+# PyPhiser no Kali Linux
+
+- Pesquisando outra ferramenta: https://gitlab.com/KasRoudra/PyPhisher
+![RCE](./img/18.png)
+![RCE](./img/19.png)
+
+- Baixando o repositório: $ git clone https://gitlab.com/KasRoudra/PyPhisher.git
+![RCE](./img/20.png)
+
+- Acessando o diretório e listando o conteúdo:
+![RCE](./img/21.png)
+
+- Rodando o PyPhisher: $ python pyphisher.py
+![RCE](./img/22.png)
+
+- Do you have loclx authtoken? : n
+
+- Acessando a interface do PyPhiser:
+![RCE](./img/23.png)
+
+- Facebook Traditional: 1
+![RCE](./img/24.png)
+
+- Do you want OTP Page? [y/n]: n
+![RCE](./img/25.png)
+
+- Enter shadow url (for social media preview)[press enter to skip] : Enter
+![RCE](./img/26.png)
+
+- Enter redirection url[press enter to skip] : Enter
+![RCE](./img/27.png)
+
+- Are you sure you want to continue connecting (yes/no/[fingerprint])? : Esc
+![RCE](./img/28.png)
+
+- Acessando o link gerado: [https://sealed-badly-extract-nitrogen.trycloudflare.com]
+![RCE](./img/29.png)
+
+- Inserindo as credenciais na página clonada: usuario@face.com / senhasecreta123
+![RCE](./img/30.png)
+
+- Redirecionamento para a página real do facebook:
+![RCE](./img/31.png)
+
+- Coletando dados da vítima:
+![RCE](./img/32.jpeg)
+
+- Coletando informações de login da vítima:
+![RCE](./img/33.png)
+
+- Informações registradas: creds.txt
+![RCE](./img/34.png)
