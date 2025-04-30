@@ -123,7 +123,7 @@ Ferramentas
 
 ![RCE](./img/23.png)
 
-- Facebook Traditional: 1
+- Facebook Traditional: 01
 
 ![RCE](./img/24.png)
 
